@@ -35,6 +35,6 @@ Set permissions:
 Run script:
 
 ```
->./JPGExtractor.sh input_folder output_folder
+>./JPGExtractor.sh test_input test_output
 ```
 
