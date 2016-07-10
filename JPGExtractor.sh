@@ -3,8 +3,6 @@
 #Name: Francis Lawlor
 #Email: francis.lawlor@ucdconnect.ie
 
-#Program takes in two arguments from the user, a source directory and a destination directory. All pngs and directories containing them from the source folder are converted to jpgs and copied to the destination folder.
-
 #Check that appropriate number of arguments are entered.
 
 if [ ! $# -eq 2 ]
