@@ -1,8 +1,8 @@
 # JPGExtractor_BashScript
 
-The script takes two arguments from the user, a source directory and a destination directory.
-Any pngs from the source directory will be copied to the destination directory and converted to jpgs.
-The directory structure will be maintained for situations where subdirectories contain pngs. e.g.
+All pngs from the source directory are copied to the destination directory and converted to jpgs, while maintaining directory structure.
+
+Example:
 
 ```
 input_folder
@@ -24,7 +24,16 @@ output_folder
     \img4.jpg
 ```
 
-Usage:
+### Parameters
+Parameter 1:
+
+- source directory.
+
+Parameter 2:
+
+- destination directory.
+
+### Usage:
 
 Set permissions:
 
@@ -32,9 +41,8 @@ Set permissions:
 >chmod a+x ./JPGExtractor.sh
 ```
 
-Run script:
+Run:
 
 ```
 >./JPGExtractor.sh test_input test_output
 ```
-
